@@ -3,7 +3,7 @@ import React from 'react';
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+      <nav className="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top p-3">
         <div className="container-fluid">
           <button
             className="navbar-toggler ms-auto"
@@ -23,19 +23,19 @@ function NavBar() {
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">About</a>
+                <a className="nav-link active" href="#about">About</a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link active" href="#">Skills</a>
+                <a className="nav-link active" href="#skills">Skills</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Experience</a>
+                <a className="nav-link active" href="#experience">Experience</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Projects</a>
+                <a className="nav-link active" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Contact</a>
+                <a className="nav-link active" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
