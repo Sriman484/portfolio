@@ -25,7 +25,7 @@ function Contact() {
                 </div>
                 <div className="ms-3 text-start d-flex align-items-center">
                   <h6 className="mb-0 me-2" style={{ minWidth: 90 }}>Email :</h6>
-                  <a href="mailto:contact@srimang.dev">srimang484@gmail.com</a>
+                  <a href="mailto:srimang484@gmail.com" className='text-white'>srimang484@gmail.com</a>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ function Contact() {
                 </div>
                 <div className="ms-3 text-start d-flex align-items-center">
                   <h6 className="mb-0 me-2" style={{ minWidth: 90 }}>Phone :</h6>
-                  <a href="tel:+1234567890">+91 9080345945</a>
+                  <a href="tel:+9080345945" className='text-white'>+91 9080345945</a>
                 </div>
               </div>
 

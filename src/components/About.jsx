@@ -61,9 +61,9 @@ function About() {
                                 </div>
 
                                 <div className="mt-4 d-flex flex-wrap gap-2 justify-content-center">
-                                    <span className="badge badge-pill badge-amber">JavaScript</span>
-                                    <span className="badge badge-pill badge-indigo">React.js</span>
+                                    <span className="badge badge-pill badge-amber">React.js</span>
                                     <span className="badge badge-pill badge-teal">Express.js</span>
+                                    <span className="badge badge-pill badge-indigo">JavaScript</span>
                                     <span className="badge badge-pill badge-amber">MongoDB</span>
                                 </div>
 

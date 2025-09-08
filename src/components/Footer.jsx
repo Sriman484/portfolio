@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp, Code, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowUp, Code, Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 function Footer() {
     const scrollToTop = () => {
@@ -28,9 +28,13 @@ function Footer() {
                                 <Linkedin size={20} />
                                 <span className="visually-hidden">LinkedIn</span>
                             </a>
-                            <a href="https://twitter.com/srimang" target="_blank" rel="noopener noreferrer" className="text-white-50">
-                                <Twitter size={20} />
-                                <span className="visually-hidden">Twitter</span>
+                            <a href="mailto:srimang484@gmail.com" className="text-white-50">
+                                <Mail size={20} />
+                                <span className="visually-hidden">Email</span>
+                            </a>
+                            <a href="tel:+919080345945" className="text-white-50">
+                                <Phone size={20} />
+                                <span className="visually-hidden">Phone</span>
                             </a>
                         </div>
                     </div>

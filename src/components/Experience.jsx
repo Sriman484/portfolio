@@ -3,15 +3,15 @@ import { Briefcase, Check } from 'lucide-react';
 
 const experiences = [
   {
-    role: 'Web Development Intern',
-    company: 'OctaNet Services Pvt Ltd',
-    duration: 'Aug 2024 – Sep 2024',
+    role: 'Full Stack Web Developer Intern',
+    company: 'Vorkinsta',
+    duration: 'May 2025 – Aug 2025',
     description: [
-      'Created responsive landing pages using HTML and CSS.',
-      'Worked on UI/UX improvements and implemented modern design practices.',
-      'Collaborated with senior developers to fix layout issues and improve performance.',
+      'Completed a three-month internship with a stipend of ₹1,000/month, focusing on web application development using React.js, Tailwind CSS, and Supabase.',
+      'Gained hands-on experience by implementing user authentication and developing interactive dashboards.',
+      'Delivered responsive, user-friendly interfaces while collaborating with the development team.',
     ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+    technologies: ['React.js', 'Tailwind CSS', 'Supabase', 'Git & GitHub', 'Testing'],
   },
   {
     role: 'Full Stack Web Developer Intern',
@@ -25,15 +25,15 @@ const experiences = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Responsive Design'],
   },
   {
-    role: 'Full Stack Web Developer Intern',
-    company: 'Vorkinsta',
-    duration: 'May 2025 – Aug 2025',
+    role: 'Web Development Intern',
+    company: 'OctaNet Services Pvt Ltd',
+    duration: 'Aug 2024 – Sep 2024',
     description: [
-      'Completed a three-month internship with a stipend of ₹1,000/month, focusing on web application development using React.js, Tailwind CSS, and Supabase.',
-      'Gained hands-on experience by implementing user authentication and developing interactive dashboards.',
-      'Delivered responsive, user-friendly interfaces while collaborating with the development team.',
+      'Created responsive landing pages using HTML and CSS.',
+      'Worked on UI/UX improvements and implemented modern design practices.',
+      'Collaborated with senior developers to fix layout issues and improve performance.',
     ],
-    technologies: ['React.js', 'Tailwind CSS', 'Supabase', 'User Authentication', 'Dashboard Development'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
   }
 ];
 

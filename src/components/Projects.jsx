@@ -76,27 +76,31 @@ function Projects() {
               >
                 <div className="position-relative">
                   <img src={project.image} alt={project.title} className="project-image" />
-                  {project.githubUrl && project.liveUrl && (
+                  {(project.githubUrl || project.liveUrl) && (
                     <div className="project-overlay">
                       <div className="d-flex gap-3">
-                        <a
-                          href={project.githubUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
-                          style={{ width: 40, height: 40 }}
-                        >
-                          <Github size={18} />
-                        </a>
-                        <a
-                          href={project.liveUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
-                          style={{ width: 40, height: 40 }}
-                        >
-                          <ExternalLink size={18} />
-                        </a>
+                        {project.githubUrl && (
+                          <a
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style={{ width: 40, height: 40 }}
+                          >
+                            <Github size={18} />
+                          </a>
+                        )}
+                        {project.liveUrl && (
+                          <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-light rounded-circle d-flex align-items-center justify-content-center"
+                            style={{ width: 40, height: 40 }}
+                          >
+                            <ExternalLink size={18} />
+                          </a>
+                        )}
                       </div>
                     </div>
                   )}

@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const TypewriterInline = ({ text = '', typingSpeed = 90, pauseTime = 700, cursor = true }) => {
@@ -75,8 +75,8 @@ const Home = () => {
                     >
                         View my Work
                     </button>
-                    <a href="#contact" className="btn btn-outline-danger">
-                        Get in Touch
+                    <a href="/Sriman-Resume.pdf" className="btn btn-outline-danger" target="_blank" rel="noopener noreferrer">
+                        View Resume
                     </a>
                 </div>
 
@@ -87,8 +87,11 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/sriman-g-b01525274" target="_blank" rel="noopener noreferrer" className="text-light">
                         <Linkedin size={24} />
                     </a>
-                    <a href="https://twitter.com/srimang" target="_blank" rel="noopener noreferrer" className="text-light">
-                        <Twitter size={24} />
+                    <a href="mailto:srimang484@gmail.com" className="text-light">
+                        <Mail size={24} />
+                    </a>
+                    <a href="tel:+919080345945" className="text-light">
+                        <Phone size={24} />
                     </a>
                 </div>
             </div>

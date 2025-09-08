@@ -5,22 +5,22 @@ const skill = [
   {
     category: "Frontend",
     icon: <Layout className="bi-icon" />,
-    items: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js"],
+    items: ["HTML and CSS", "JavaScript","React.js", "Bootstrap", "Tailwind CSS"],
   },
   {
     category: "Languages",
     icon: <Code className="bi-icon" />,
-    items: ["Java", "Python", "C-Programming", "JavaScirpt"],
+    items: ["Java", "C-Programming", "JavaScirpt", "Python"],
   },
   {
     category: "Backend",
     icon: <Server className="bi-icon" />,
-    items: ["Node.js", "Express", "MongoDB", "MySQL"],
+    items: ["Express.js", "Node.js", "MongoDB", "MySQL"],
   },
   {
     category: "Tools",
     icon: <Terminal className="bi-icon" />,
-    items: ["Git & GitHub", "VS Code", "Postman", "Canva"],
+    items: ["Git & GitHub", "Supabase", "Postman", "Canva", "Vercel & Render"],
   },
 ];
 

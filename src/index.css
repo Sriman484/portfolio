@@ -171,3 +171,14 @@ body, .navbar-bg {
   transform: translateY(0);
   opacity: 1;
 }
+
+footer a.text-white-50:hover {
+  color: #ffffff !important;
+  transition: color 0.2s ease-in-out;
+}
+
+#contact a,
+#contact a:hover,
+#contact a:focus {
+  text-decoration: none;
+}
