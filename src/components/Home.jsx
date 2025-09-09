@@ -75,7 +75,7 @@ const Home = () => {
                     >
                         View my Work
                     </button>
-                    <a href="/Sriman-Resume.pdf" className="btn btn-outline-danger" target="_blank" rel="noopener noreferrer">
+                    <a href="/Sriman_Resume.pdf" className="btn btn-outline-danger" target="_blank" rel="noopener noreferrer">
                         View Resume
                     </a>
                 </div>
