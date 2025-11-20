@@ -65,7 +65,7 @@ const Home = () => {
                 </h1>
 
                 <p className="lead mt-3">
-                    Full Stack Developer specializing in building exceptional digital experiences
+                    Full Stack Web Developer specializing in building exceptional digital experiences
                 </p>
 
                 <div className="mt-4 d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3">
