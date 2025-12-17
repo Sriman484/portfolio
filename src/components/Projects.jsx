@@ -9,7 +9,7 @@ const projects = [
       description: 'The E-Commerce Website is a platform that supports product listings, secure user authentication, and shopping cart management. It offers a shopping experience with order tracking and a responsive design across all devices.',
       image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-      liveUrl: 'https://trenzz-shop.onrender.com',
+      liveUrl: 'https://trenzz-shopping.vercel.app/',
       githubUrl: 'https://github.com/Sriman484/e-commerce-website'
     },
     {
