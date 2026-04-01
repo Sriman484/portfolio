@@ -15,12 +15,12 @@ const skill = [
   {
     category: "Backend",
     icon: <Server className="bi-icon" />,
-    items: ["Express.js", "Node.js", "MongoDB", "MySQL"],
+    items: ["Express.js", "Node.js", "Spring Boot", "MongoDB", "MySQL"],
   },
   {
     category: "Tools",
     icon: <Terminal className="bi-icon" />,
-    items: ["Git & GitHub", "Supabase", "Postman", "Canva", "Vercel & Render"],
+    items: ["Git & GitHub", "Supabase", "Postman", "Vercel"],
   },
 ];
 
